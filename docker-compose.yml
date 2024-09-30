@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  aplikasi:
+    image: 10.61.4.123:8087/itms-web-dev-fix:{{image_tag}}
+    network_mode: bridge
+    ports:
+      - 9135:80
